@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Damian Gonzalez",
-    "label": "Front end Developer",
+    "label": "Front end Developer currently working as a freelancer",
     "image": "/profilePic.webp",
     "email": "nangonz91@gmail.com",
     "phone": "+54 2612451106",
@@ -17,18 +17,18 @@
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "midudev",
-        "url": "https://linkedin.com/in/midudev"
+        "username": "Damian G.",
+        "url": "https://www.linkedin.com/in/dami-gonzalez/"
       },
       {
-        "network": "X",
-        "username": "midudev",
-        "url": "https://x.com/midudev"
+        "network": "Xtw",
+        "username": "nang0nz",
+        "url": "https://twitter.com/nang0nz"
       },
       {
-        "network": "GitHub",
-        "username": "midudev",
-        "url": "https://github.com/midudev"
+        "network": "Github",
+        "username": "nangonz",
+        "url": "https://github.com/nangonz"
       }
     ]
   },
