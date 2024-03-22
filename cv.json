@@ -1,18 +1,18 @@
 {
   "basics": {
-    "name": "Miguel Ángel Durán",
-    "label": "Full Stack Developer con más de 15 años de experiencia & Creador de Contenido de Programación",
-    "image": "/me.webp",
-    "email": "miduga@gmail.com",
-    "phone": "+34 688888888",
-    "url": "https://midu.dev",
-    "summary": "+15 años de experiencia como Desarrollador Web. Actualmente soy Creador de Contenido y Divulgador sobre Programación. Vivo en Barcelona, España. He trabajado en diferentes entornos: desde acelerar el desarrollo de start-ups hasta liderando equipos de empresas multinacionales.",
+    "name": "Damian Gonzalez",
+    "label": "Front end Developer",
+    "image": "/profilePic.webp",
+    "email": "nangonz91@gmail.com",
+    "phone": "+54 2612451106",
+    "url": "https://damian-gonzalez.vercel.app",
+    "summary": "Desarrollador Web fullstack Javascript con preferencia por el front end. Estudié además diseño UX UI en el programa “codo a codo” del Ministerio de Educación de CABA. Durante mi formación he sido parte de equipos de trabajo multiculturales donde pude desarrollar habilidades de comunicación y de trabajo en equipo participando en el desarrollo front end y back end de aplicaciones web implementando una metodología de trabajo ágil.",
     "location": {
       "address": "",
-      "postalCode": "08820",
-      "city": "el Prat de Llobregat",
-      "countryCode": "ES",
-      "region": "España"
+      "postalCode": "5525",
+      "city": "Mendoza",
+      "countryCode": "AR",
+      "region": "Argentina"
     },
     "profiles": [
       {

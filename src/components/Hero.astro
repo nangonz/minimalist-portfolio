@@ -1,11 +1,13 @@
 ---
 import { basics } from '@cv'
+import Section from '@/components/Section.astro'
+
 
 const { name, label, image, location, profiles, phone, email } = basics
 const { city, region } = location
 ---
 
-<section>
+<Section title="Hero section">
   <div class="container">
     <div class="info">
       <h1>{ name }</h1>
@@ -30,11 +32,15 @@ const { city, region } = location
       </footer>
     </div>
     <figure>
-      <img src={image} alt={name}>
+      <img class="profilePic" src={image} alt={name}>
     </figure>
   </div>
-</section>
+</Section>
 
 <style>
+  .profilePic {
+    width: 5rem;
+    height: 5rem;
+  }
 
 </style>
