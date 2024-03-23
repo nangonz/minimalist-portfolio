@@ -69,18 +69,38 @@
       "Awarded 'Volunteer of the Month'"
     ]
   }],
-  "education": [{
-    "institution": "HENRY Bootcamp",
-    "url": "https://www.uoc.edu/portal/es/index.html",
-    "area": "Desarrollador Web Full Stack",
-    "studyType": "Course",
-    "startDate": "2003-01-01",
-    "endDate": "2009-01-01",
-    "score": "4.0",
-    "courses": [
-      "DB1101 - Basic SQL"
-    ]
-  }],
+  "education": [
+    {
+      "institution": "HENRY",
+      "url": "https://www.soyhenry.com",
+      "area": "Desarrollo Web Full Stack",
+      "studyType": "Bootcamp de Programación con +800 hs de práctica",
+      "startDate": "Marzo 2022",
+      "endDate": "Diciembre 2022",
+      "score": null,
+      "courses": null
+    },
+    {
+      "institution": "AMICANA",
+      "url": "https://www.amicana.com",
+      "area": "Idioma",
+      "studyType": "Curso de Inglés Avanzado",
+      "startDate": "marzo 2009",
+      "endDate": "Diciembre 2011",
+      "score": null,
+      "courses": null
+    },
+    {
+      "institution": "Codigo Facilito",
+      "url": "https://codigofacilito.com/",
+      "area": "Desarrollo Front End",
+      "studyType": "Curso Profesional de React",
+      "startDate": "marzo 2009",
+      "endDate": "Diciembre 2011",
+      "score": null,
+      "courses": null
+    }
+],
   "awards": [{
     "title": "Award",
     "date": "2014-11-01",
