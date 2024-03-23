@@ -34,36 +34,28 @@
   },
   "work": [
     {
-      "name": "midudev",
-      "position": "Divulgador sobre Programación Web",
-      "url": "https://twitch.tv/midudev",
-      "startDate": "2021-01-01",
-      "endDate": null,
-      "summary": "Streamer de programación más visto en Español en Twitch. +1 millón de seguidores entre todas mis redes sociales. Reconocido por Google, Microsoft y GitHub por mi impacto en la comunidad de desarrolladores.",
-      "highlights": [
-        "Started the company"
-      ]
+      "name": "La Nueva Jerusalén",
+      "position": "Desarrollador Front end",
+      "url": "https://www.lanuevajerusalenamorysalvacion.com/",
+      "startDate": "2023",
+      "endDate": "Actualidad",
+      "summary": "Sitio web en Next.js para la Iglesia que incluye control de usuarios, paneles de administración y notificaciones vía correo electrónico."
     },
     {
-      "name": "Adevinta",
-      "position": "Lead Frontend Architect",
-      "url": "https://twitch.tv/midudev",
-      "startDate": "2016-06-01",
-      "endDate": "2022-09-01",
-      "summary": "Lideré una convergencia técnica entre diferentes productos y migramos una arquitectura monolítica a otra más flexible y optimizada. Fomenté buenas prácticas y mejoras en la cultura de rendimiento, además de la entrega rápida de valor a los usuarios.",
-      "highlights": [
-        "Started the company"
-      ]
+      "name": "E-commerce Tecnoshop",
+      "position": "Desarrollador Full stack",
+      "url": "https://e-commerce-tecnoshop.vercel.app/",
+      "startDate": "Octubre 2022",
+      "endDate": "Noviembre 2022",
+      "summary": "Colaboré en el diseño y desarrollo de un e-commerce de tecnología como parte de un equipo ágil que seguía la metodología SCRUM. Mi enfoque principal estuvo en el front end utilizando React."
     },
     {
-      "name": "Hubii",
-      "position": "Senior FrontEnd Developer",
-      "startDate": "2011-03-01",
-      "endDate": "2016-05-01",
-      "summary": "Desarrollé una plataforma de noticias geolocalizadas y una API para consumir la información. Escalé los servicios para soportar la carga de más de cientos de miles de peticiones al día. Recorté los tiempos de entrega y despliegues a producción a la mitad. Colaboré con Mozilla y Telefónica para desarrollar la primera app para televisores con FirefoxOS.",
-      "highlights": [
-        "Started the company"
-      ]
+      "name": "Pokeapp (académico)",
+      "position": "Desarrollador Full stack",
+      "url": "https://poke-app-seven.vercel.app/home",
+      "startDate": "Septiembre 2022",
+      "endDate": "Octubre 2022",
+      "summary": "Single Page Application utilizando React, Redux, Javascript, HTML y CSS. Paginado, Filtrado, Creación, Consumo de Rest Api de pokemon."
     }
   ],
   "volunteer": [{
