@@ -70,10 +70,10 @@
     ]
   }],
   "education": [{
-    "institution": "Universitat Oberta de Catalunya",
+    "institution": "HENRY Bootcamp",
     "url": "https://www.uoc.edu/portal/es/index.html",
-    "area": "Ingeniero de Software",
-    "studyType": "Bachelor",
+    "area": "Desarrollador Web Full Stack",
+    "studyType": "Course",
     "startDate": "2003-01-01",
     "endDate": "2009-01-01",
     "score": "4.0",
