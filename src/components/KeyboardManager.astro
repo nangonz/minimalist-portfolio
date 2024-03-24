@@ -4,8 +4,11 @@ import { basics } from "@cv"
 <footer>
 
 </footer>
-<ninja-keys></ninja-keys>
-
+<ninja-keys
+  placeholder="Buscar comando"
+  hideBreadcrumbs="true"
+>
+  <!-- <div slot="footer">You can use a custom footer or empty div to hide it</div> -->
 <script>
   import "ninja-keys"
 
@@ -18,8 +21,8 @@ import { basics } from "@cv"
         title: 'Imprimir',
         hotkey: 'ctrl+P',
         icon: `
-          <svg xmlns="http://www.w3.org/2000/svg" width="1.3rem" height="1.3rem" viewBox="0 0 24 24">
-	          <path fill="#43a1f1" d="M18 7H6V3h12zm0 5.5q.425 0 .713-.288T19 11.5q0-.425-.288-.712T18 10.5q-.425 0-.712.288T17 11.5q0 .425.288.713T18 12.5M16 19v-4H8v4zm2 2H6v-4H2v-6q0-1.275.875-2.137T5 8h14q1.275 0 2.138.863T22 11v6h-4z" />
+          <svg xmlns="http://www.w3.org/2000/svg" width="1.3rem" height="1.3rem" viewBox="0 0 512 512">
+	          <path fill="#43a1f1" d="M384 362.7H128V384h256zM106.7 21.3h192V128h106.7v42.7h21.3v-64L320 0H85.3v170.7h21.3V21.3zM448 192H64c-42.7 0-64 21.3-64 64v128h85.3v128h341.3V384H512V256c0-42.7-21.3-64-64-64M85.3 277.3H42.7v-42.7h42.7v42.7zm320 213.4H106.7V341.3h298.7v149.4zM384 405.3H128v21.3h256zm0 42.7H128v21.3h256z" />
           </svg>
         `,
         section: 'Acciones',
