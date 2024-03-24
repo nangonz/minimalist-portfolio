@@ -18,7 +18,7 @@ const SOCIAL_ICONS: Record<string, any> = {
   Xtw
 }
 
-const linkedUrl = profiles.find(({ network }) => network === "LinkedIn")?.url.substring(12,41)
+const linkedUrl = profiles.find(({ network }) => network === "LinkedIn")?.url
 const printInfo = [email, phone, linkedUrl].filter(Boolean)
 ---
 
@@ -153,6 +153,11 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean)
   footer a:hover {
     background: #eee;
     border: 1px solid #ddd;
+  }
+
+  footer p {
+    font-size: .75rem;
+    color: #555;
   }
 
   .print {
