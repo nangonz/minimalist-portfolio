@@ -1,6 +1,41 @@
 ---
 import Section from "./Section.astro"
+
+import { projects } from "@cv"
 ---
-<Section title="Project">
-  <p>Project section</p>
+
+<Section title="Projects">
+  <ul>
+    {
+      projects.map(({ name, url, isActive, github, highlights, description })=> {
+        return (
+          <li>
+            <article>
+              <header>
+                <a href={url} title={`Ver el proyecto ${name}`} target="_blank" rel="noopener noreferrer">
+                  <h3>{name}</h3>
+                </a>
+                <p>{description}</p>
+              </header>
+              <footer>
+                <ul>
+                  {
+                    highlights.map(highlight => {
+                      return(
+                        <li>{highlight}</li>
+                      )
+                    })
+                  }
+                </ul>
+              </footer>
+            </article>
+          </li>
+        )
+      })
+    }
+  </ul>  
 <Section />
+
+<style>
+
+</style>
