@@ -18,17 +18,20 @@
       {
         "network": "LinkedIn",
         "username": "Damian G.",
-        "url": "https://www.linkedin.com/in/dami-gonzalez/"
+        "url": "https://www.linkedin.com/in/dami-gonzalez/",
+        "icon": "LinkedIn"
       },
       {
         "network": "Xtw",
         "username": "nang0nz",
-        "url": "https://twitter.com/nang0nz"
+        "url": "https://twitter.com/nang0nz",
+        "icon": "Xtw"
       },
       {
         "network": "Github",
         "username": "nangonz",
-        "url": "https://github.com/nangonz"
+        "url": "https://github.com/nangonz",
+        "icon": "Github"
       }
     ]
   },
