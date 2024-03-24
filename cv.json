@@ -236,8 +236,7 @@
       "description": "Retos de programación en JavaScript para cada día de diciembre hasta Navidad",
       "highlights": [
         "+1 millón de visitas",
-        "Multidioma",
-        "JavaScript & TypeScript"
+        "Multidioma"
       ],
       "url": "https://adventjs.dev"
     },
@@ -247,7 +246,7 @@
       "description": "Juego interactivo de programación con retos y secretos",
       "highlights": [
         "+2000 usuarios activos",
-        "Retos para cualquier lenguaje"
+        "Retos de programación"
       ],
       "url": "https://codember.dev"
     },
@@ -268,7 +267,7 @@
       "description": "Lista de pruebas técnicas de empresas para practicar programación",
       "highlights": [
         "100% gratuito",
-        "+500 soluciones de la comunidad"
+        "+500 soluciones"
       ],
       "url": "https://pruebastecnicas.com",
       "github": "https://github.com/midudev/pruebas-tecnicas"
@@ -278,7 +277,7 @@
       "description": "Conferencia de programación en streaming para la comunidad hispanohablante con charlas top",
       "highlights": [
         "+15k tickets repartidos",
-        "+50k espectadores en directo"
+        "+50k espectadores"
       ],
       "url": "https://miduconf.com"
     }
