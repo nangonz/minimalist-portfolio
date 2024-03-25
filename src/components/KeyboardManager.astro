@@ -49,11 +49,7 @@ const profileInfo = profiles.map(({ network, url }) => {
     id: network,
     section: "social",
     title: `Visitar ${network}`,
-    icon,
-    hotkey: `Ctrl + ${firstLetter}`,
-    handler: () => {
-      window.open(url, "_blank")
-    }
+    icon
   }
 
 })
