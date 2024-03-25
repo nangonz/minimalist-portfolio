@@ -137,6 +137,13 @@ const profilesInfo = profiles.map(({ network, url }) => {
     width: 100%;
     padding-block: 12px;
     text-align: center;
+
+    view-timeline-name: --revealing;
+    view-timeline-axis: block;
+
+    animation: linear 0.3s fadeIn;
+    animation-timeline: --revealing;
+    animation-range: entry 100% cover 50%;
   }
 
   kbd {
