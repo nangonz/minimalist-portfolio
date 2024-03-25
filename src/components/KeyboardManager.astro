@@ -67,7 +67,20 @@ const profilesInfo = profiles.map(({ network, url }) => {
   hideBreadcrumbs="true"
   data-info={JSON.stringify(profilesInfo)}
 >
-  <!-- <div slot="footer">You can use a custom footer or empty div to hide it</div> -->
+  <div class="command-footer" slot="footer">
+    <p>
+      <kbd>↩</kbd>to select
+    </p>
+    <p>
+      <kbd>↑</kbd>
+      <kbd>↓</kbd>
+      to navigate
+    </p>
+    <p>
+      <kbd>Esc</kbd>
+      to close
+    </p>
+  </div>
 <script>
   import "ninja-keys"
 
@@ -151,6 +164,12 @@ const profilesInfo = profiles.map(({ network, url }) => {
     border-radius: 8px;
     padding: 2px 6px;
     font-size: .85rem;
+  }
+
+  .command-footer {
+    padding: 2rem;
+    font-size: .85rem;
+    color: #777;
   }
   
 </style>
