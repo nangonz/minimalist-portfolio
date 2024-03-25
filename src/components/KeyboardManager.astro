@@ -50,7 +50,7 @@ const profilesInfo = profiles.map(({ network, url }) => {
 
   return {
     id: network,
-    section: "social",
+    section: "Redes sociales",
     title: `Visitar ${network}`,
     url,
     icon,
@@ -68,17 +68,18 @@ const profilesInfo = profiles.map(({ network, url }) => {
   data-info={JSON.stringify(profilesInfo)}
 >
   <div class="command-footer" slot="footer">
-    <p>
-      <kbd>↩</kbd>to select
+    <p class="select-instruction">
+      <kbd class="footer-keyboard">↩</kbd>
+      seleccionar
     </p>
-    <p>
-      <kbd>↑</kbd>
-      <kbd>↓</kbd>
-      to navigate
+    <p class="navigate-instruction">
+      <kbd class="footer-keyboard">↑</kbd>
+      <kbd class="footer-keyboard">↓</kbd>
+      navegar
     </p>
-    <p>
-      <kbd>Esc</kbd>
-      to close
+    <p class="close-instruction">
+      <kbd class="footer-keyboard">Esc</kbd>
+      cerrar
     </p>
   </div>
 <script>
@@ -167,9 +168,28 @@ const profilesInfo = profiles.map(({ network, url }) => {
   }
 
   .command-footer {
-    padding: 2rem;
+    border-top: 1px solid #eee;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    padding: 1rem;
     font-size: .85rem;
     color: #777;
   }
+
+  .footer-keyboard {
+    border-radius: 5px;
+    border: 1px solid #777;
+    background-color: #eee;
+    padding-block: .25rem;
+    padding-inline: .45rem;
+  }
+
+  .close-instruction {
+   justify-self: end;
+  }
   
+  .select-instruction {
+   justify-self: start;
+  }
 </style>
