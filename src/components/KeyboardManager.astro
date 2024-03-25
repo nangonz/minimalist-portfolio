@@ -46,8 +46,9 @@ const profileInfo = profiles.map(({ network, url }) => {
   const firstLetter = network[0].toUpperCase()
 
   return {
+    id: network,
     section: "social",
-    title: network,
+    title: `Visitar ${network}`,
     icon,
     hotkey: `Ctrl + ${firstLetter}`,
     handler: () => {
