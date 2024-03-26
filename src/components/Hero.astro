@@ -7,6 +7,8 @@ import WorldMap from '@/icons/WorldMap.astro'
 import LinkedIn from '@/icons/LinkedIn.astro'
 import Github from '@/icons/Github.astro'
 import Xtw from '@/icons/Xtw.astro'
+import FlagArg from '@/icons/FlagArg.astro'
+import FlagUsa from '@/icons/FlagUsa.astro'
 
 
 const { name, label, image, location, profiles, phone, email } = basics
@@ -28,8 +30,8 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean)
       <header>
         <h1>{ name }</h1>
         <div>
-          <span class="es-lang">ES</span>
-          <span class="en-lang">EN</span>
+          <span class="es-lang"><FlagArg /></span>
+          <span class="en-lang"><FlagUsa /></span>
         </div>
       </header>
       <h2>{ label }</h2>
