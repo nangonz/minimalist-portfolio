@@ -17,11 +17,11 @@ const { name } = basics
 <Layout language="es" title=`CV minimalista - ${name}`>
 	<main>
 		<Hero data={basics} />
-		<About data={basics.summary}/>
-		<Experience data={experience} />
-		<Education data={education} />
-		<Projects data={projects} />
-		<Skills data={skills} />
+		<About data={basics.summary} sectionTitle="Sobre Mí" />
+		<Experience data={experience} sectionTitle="Experiencia" />
+		<Education data={education} sectionTitle="Educación" />
+		<Projects data={projects} sectionTitle="Proyectos" />
+		<Skills data={skills} sectionTitle="Habilidades" />
 	</main>
 	
 	<KeyboardManager />

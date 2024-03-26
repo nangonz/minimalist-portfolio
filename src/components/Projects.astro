@@ -3,12 +3,13 @@ import Section from "./Section.astro"
 
 interface Props {
   data: any;
+  sectionTitle: string;
 }
 
-const { data } = Astro.props
+const { data, sectionTitle } = Astro.props
 ---
 
-<Section title="Proyectos">
+<Section title={sectionTitle} >
   <ul>
     {
       data.map(({ name, url, isActive, highlights, description }:any)=> {
