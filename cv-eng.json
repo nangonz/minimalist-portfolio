@@ -38,27 +38,27 @@
   "work": [
     {
       "name": "La Nueva Jerusalén",
-      "position": "Desarrollador Front end",
+      "position": "Front end Developer",
       "url": "https://www.lanuevajerusalenamorysalvacion.com/",
       "startDate": "2023",
-      "endDate": "Actualidad",
-      "summary": "Sitio web en Next.js para la Iglesia que incluye control de usuarios, paneles de administración y notificaciones vía correo electrónico."
+      "endDate": "Present",
+      "summary": "Next.js website for the church that includes user management, administration panels and email notifications."
     },
     {
       "name": "E-commerce Tecnoshop",
-      "position": "Desarrollador Full stack",
+      "position": "Full stack Developer",
       "url": "https://e-commerce-tecnoshop.vercel.app/",
       "startDate": "Octubre 2022",
       "endDate": "Noviembre 2022",
-      "summary": "Colaboré en el diseño y desarrollo de un e-commerce de tecnología como parte de un equipo ágil que seguía la metodología SCRUM. Mi enfoque principal estuvo en el front end utilizando React."
+      "summary": "I participated in the design and development of a technology e-commerce as part of an agile team following the SCRUM methodology. My main focus was on the front end using React."
     },
     {
       "name": "Pokeapp (académico)",
-      "position": "Desarrollador Full stack",
+      "position": "Full stack Developer",
       "url": "https://poke-app-seven.vercel.app/home",
       "startDate": "Septiembre 2022",
       "endDate": "Octubre 2022",
-      "summary": "Single Page Application utilizando React, Redux, Javascript, HTML y CSS. Paginado, Filtrado, Creación, Consumo de Rest Api de pokemon."
+      "summary": "Single Page Application using React, Redux, Javascript, HTML and CSS. Pagination, Filtering, Creation, Consumption of Rest Api of pokemon."
     }
   ],
   "volunteer": [{

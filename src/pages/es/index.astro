@@ -10,18 +10,19 @@ import Projects from '@/components/Projects.astro'
 import Skills from '@/components/Skills.astro'
 import KeyboardManager from '@/components/KeyboardManager.astro'
 
-import { basics } from "@cv"
+import { basics, work, education, projects, skills } from "@cv"
 const { name } = basics
+
 ---
 
 <Layout language="es" title=`CV minimalista - ${name}`>
 	<main>
-		<Hero data={basics}/>
-		<About data={basics.summary} />
-		<Experience />
-		<Education />
-		<Projects />
-		<Skills />
+		<Hero data={basics} />
+		<About data={basics.summary}/>
+		<Experience data={work} />
+		<Education data={education} />
+		<Projects data={projects} />
+		<Skills data={skills} />
 	</main>
 	
 	<KeyboardManager />

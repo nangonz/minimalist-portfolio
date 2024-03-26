@@ -1,11 +1,17 @@
 ---
 import Section from "./Section.astro"
-import { work } from "@cv"
+
+interface Props {
+  data: any
+}
+
+const { data } = Astro.props
+
 ---
 <Section title="Experiencia">
   <ul>
     {
-      work.map(({ name, startDate, endDate, position, summary }) => {
+      data.map(({ name, startDate, endDate, position, summary }: any) => {
         const workPeriod = `${startDate} - ${endDate}`
         return (
           <li>
