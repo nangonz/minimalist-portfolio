@@ -25,7 +25,13 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean)
 <Section>
   <div class="container">
     <div class="info">
-      <h1>{ name }</h1>
+      <header>
+        <h1>{ name }</h1>
+        <div>
+          <span class="es-lang">ES</span>
+          <span class="en-lang">EN</span>
+        </div>
+      </header>
       <h2>{ label }</h2>
       <span>
         <WorldMap />
@@ -88,6 +94,30 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean)
 </Section>
 
 <style>
+  header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  header div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    padding-top: .8rem;
+    padding-bottom: .2rem;
+
+  }
+
+  header div span {
+    width: 2rem;
+    height: 1.5rem;
+    padding: 6px;
+    border: 1px solid black;
+    border-radius: 5px
+  }
+
   .profilePic {
     aspect-ratio: 1 / 1;
     object-fit: cover;
