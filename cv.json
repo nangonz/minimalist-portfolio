@@ -239,7 +239,6 @@
       "description": "Aplicación completa de e-commerce de tecnología.",
       "highlights": [
         "Gestión de productos",
-        "Carrito de la compra",
         "Búsqueda y filtrado"
       ],
       "url": "https://e-commerce-tecnoshop.vercel.app/"
@@ -250,8 +249,7 @@
       "description": "Web con temática pokémon, proyecto académico.",
       "highlights": [
         "CRUD de personajes",
-        "Consumo de API",
-        "Búsqueda y filtrado"
+        "Consumo de API"
       ],
       "url": "https://poke-app-seven.vercel.app/home"
     },
