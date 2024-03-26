@@ -1,4 +1,7 @@
 ---
+import {  getRelativeLocaleUrlList } from 'astro:i18n';
+const localeUrls = getRelativeLocaleUrlList();
+
 import Section from '@/components/Section.astro'
 import Mail from '@/icons/Mail.astro'
 import Phone from '@/icons/Phone.astro'
@@ -34,8 +37,12 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean)
       <header>
         <h1>{ name }</h1>
         <div>
-          <span class="es-lang"><FlagArg /></span>
-          <span class="en-lang"><FlagUsa /></span>
+          <a href={localeUrls[0]}>
+            <FlagArg />
+          </a>
+          <a href={localeUrls[1]}>
+            <FlagUsa />
+          </a>
         </div>
       </header>
       <h2>{ label }</h2>
@@ -116,12 +123,11 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean)
 
   }
 
-  header div span {
-    width: 2rem;
-    height: 1.5rem;
-    padding: 6px;
-    border: 1px solid black;
-    border-radius: 5px
+  header div a {
+    border: 1px solid #272727;
+    padding-inline: 5px;
+    padding-block: 1px;
+    border-radius: 4px;
   }
 
   .profilePic {
