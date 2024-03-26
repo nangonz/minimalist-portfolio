@@ -37,10 +37,10 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean)
       <header>
         <h1>{ name }</h1>
         <div>
-          <a href={localeUrls[0]}>
+          <a class="es-lang" href={localeUrls[0]}>
             <FlagArg />
           </a>
-          <a href={localeUrls[1]}>
+          <a class="en-lang" href={localeUrls[1]}>
             <FlagUsa />
           </a>
         </div>
@@ -117,17 +117,23 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean)
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: .5rem;
-    padding-top: .8rem;
-    padding-bottom: .2rem;
 
   }
 
-  header div a {
-    border: 1px solid #272727;
+  header div .es-lang {
+    border-bottom: 1px solid red;
+    border-left: 1px solid red;
+    border-top: 1px solid red;
     padding-inline: 5px;
-    padding-block: 1px;
-    border-radius: 4px;
+    padding-block: 3px;
+    border-radius: 10px 0px 0px 10px;
+  }
+
+  header div .en-lang {
+    border: 1px solid red;
+    padding-inline: 5px;
+    padding-block: 3px;
+    border-radius: 1px 10px 10px 1px;
   }
 
   .profilePic {
