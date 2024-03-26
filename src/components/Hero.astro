@@ -1,5 +1,4 @@
 ---
-import { basics } from '@cv'
 import Section from '@/components/Section.astro'
 import Mail from '@/icons/Mail.astro'
 import Phone from '@/icons/Phone.astro'
@@ -10,8 +9,13 @@ import Xtw from '@/icons/Xtw.astro'
 import FlagArg from '@/icons/FlagArg.astro'
 import FlagUsa from '@/icons/FlagUsa.astro'
 
+interface Props {
+	data: Record<string, any>;
+}
 
-const { name, label, image, location, profiles, phone, email } = basics
+const { data } = Astro.props
+
+const { name, label, image, location, profiles, phone, email } = data
 const { city, region } = location
 
 const SOCIAL_ICONS: Record<string, any> = {
@@ -20,7 +24,7 @@ const SOCIAL_ICONS: Record<string, any> = {
   Xtw
 }
 
-const linkedUrl = profiles.find(({ network }) => network === "LinkedIn")?.url
+const linkedUrl = profiles.find(({ network }:any) => network === "LinkedIn")?.url
 const printInfo = [email, phone, linkedUrl].filter(Boolean)
 ---
 
@@ -72,7 +76,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean)
           )
         }
         {
-          profiles.map(({ network, url, username })=> {
+          profiles.map(({ network, url, username }: any)=> {
             const Icon = SOCIAL_ICONS[network]
 
             return (
