@@ -224,65 +224,66 @@
   }],
   "projects": [
     {
-      "name": "mars.codes",
+      "name": "La Nueva Jerusalén",
       "isActive": true,
-      "description": "Historia interactiva con retos de programación para viajar a Marte",
+      "description": "Web de la Iglesia con contenido que se publica diariamente.",
       "highlights": [
-        "Elige tu propia aventura",
-        "En desarrollo"
+        "Gestión de usuarios",
+        "Devocionales diarios"
       ],
-      "url": "https://mars.codes"
+      "url": "https://www.lanuevajerusalenamorysalvacion.com/"
     },
     {
-      "name": "AdventJS",
-      "isActive": true,
-      "description": "Retos de programación en JavaScript para cada día de diciembre hasta Navidad",
+      "name": "Tecnoshop",
+      "isActive": false,
+      "description": "Aplicación completa de e-commerce de tecnología.",
       "highlights": [
-        "+1 millón de visitas",
-        "Multidioma"
+        "Gestión de productos",
+        "Carrito de la compra",
+        "Búsqueda y filtrado"
       ],
-      "url": "https://adventjs.dev"
+      "url": "https://e-commerce-tecnoshop.vercel.app/"
     },
     {
-      "name": "Codember",
-      "isActive": true,
-      "description": "Juego interactivo de programación con retos y secretos",
+      "name": "Pokeapp",
+      "isActive": false,
+      "description": "Web con temática pokémon, proyecto académico.",
       "highlights": [
-        "+2000 usuarios activos",
-        "Retos de programación"
+        "CRUD de personajes",
+        "Consumo de API",
+        "Búsqueda y filtrado"
       ],
-      "url": "https://codember.dev"
+      "url": "https://poke-app-seven.vercel.app/home"
     },
     {
-      "name": "codi.link",
+      "name": "Lista de tareas",
       "isActive": true,
-      "description": "Playground de código HTML, CSS y JavaScript para compartir",
+      "description": "Aplicación para crear, editar y eliminar tareas pendientes.",
       "highlights": [
-        "100k visitas al mes",
-        "Desarrollado por la comunidad"
+        "Gestíon de tareas",
+        "Desarrollado en Vue.js"
       ],
-      "url": "https://codi.link",
-      "github": "https://github.com/midudev/codi.link"
+      "url": "https://todoappwithvue.netlify.app/"
     },
     {
-      "name": "Pruebas Técnicas",
+      "name": "Adivina la palabra",
       "isActive": true,
-      "description": "Lista de pruebas técnicas de empresas para practicar programación",
+      "description": "Clon de wordle, cubre la lógica central del juego.",
       "highlights": [
-        "100% gratuito",
-        "+500 soluciones"
+        "Juego de palabras",
+        "Pasatiempo"
       ],
-      "url": "https://pruebastecnicas.com",
-      "github": "https://github.com/midudev/pruebas-tecnicas"
+      "url": "https://wordle-guessing-game.netlify.app/"
     },
     {
-      "name": "miduConf",
-      "description": "Conferencia de programación en streaming para la comunidad hispanohablante con charlas top",
+      "name": "Mubin",
+      "isActive": true,
+      "description": "Diseño en Figma del prototipo de una app de alquiler compartido",
       "highlights": [
-        "+15k tickets repartidos",
-        "+50k espectadores"
+        "Diseño UX UI",
+        "Proyecto Académico"
       ],
-      "url": "https://miduconf.com"
+      "url": "https://www.figma.com/proto/cXMvkM2GYfSDJDarmmol0K/Atomic-UIKit-Proto?type=design&node-id=65-1808&scaling=scale-down&page-id=63%3A1807&starting-point-node-id=65%3A1808&show-proto-sidebar=1&t=E4IjagvwFxIuvieN-1"
     }
   ]
 }
