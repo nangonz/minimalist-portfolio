@@ -1,13 +1,17 @@
 ---
 import Section from "./Section.astro"
 
-import { projects } from "@cv"
+interface Props {
+  data: any;
+}
+
+const { data } = Astro.props
 ---
 
 <Section title="Proyectos">
   <ul>
     {
-      projects.map(({ name, url, isActive, highlights, description })=> {
+      data.map(({ name, url, isActive, highlights, description }:any)=> {
         return (
           <li>
             <article>
@@ -19,7 +23,7 @@ import { projects } from "@cv"
               </header>
               <footer>
                   {
-                    highlights.map(highlight => {
+                    highlights.map((highlight: any) => {
                       return(
                         <span>{highlight}</span>
                       )

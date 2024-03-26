@@ -1,12 +1,16 @@
 ---
 import Section from "./Section.astro"
 
-import { skills } from "@cv"
+interface Props {
+  data: any;
+}
+
+const { data } = Astro.props
 ---
 <Section title="Habilidades">
   <ul>
     {
-      skills.map(({ name }) => {
+      data.map(({ name }:any) => {
         return (
           <li>
             <span>{name}</span>
