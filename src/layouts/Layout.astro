@@ -1,12 +1,10 @@
 ---
-import {  getRelativeLocaleUrlList } from 'astro:i18n';
 interface Props {
 	title: string;
 	language: string;
 }
 
 const { title } = Astro.props;
-const localeUrls = getRelativeLocaleUrlList();
 ---
 
 <!doctype html>
@@ -20,9 +18,6 @@ const localeUrls = getRelativeLocaleUrlList();
 		<title>{title}</title>
 	</head>
 	<body>
-		<nav>
-        {localeUrls.map(s => <a href={s} class="link">{s}</a>)}
-    </nav>
 		<slot />
 	</body>
 </html>

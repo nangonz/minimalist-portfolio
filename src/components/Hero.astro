@@ -36,7 +36,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean)
     <div class="info">
       <header>
         <h1>{ name }</h1>
-        <div>
+        <div class="languageToggle">
           <a class="es-lang" href={localeUrls[0]}>
             <FlagArg />
           </a>
@@ -121,18 +121,26 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean)
   }
 
   header div .es-lang {
-    border-bottom: 1px solid red;
-    border-left: 1px solid red;
-    border-top: 1px solid red;
-    padding-inline: 5px;
-    padding-block: 3px;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    padding-inline: 8px;
+    padding-block: 2px;
     border-radius: 10px 0px 0px 10px;
   }
 
+  header div .es-lang:hover {
+    background: #eee;
+  }
+
+  header div .en-lang:hover {
+    background: #eee;
+  }
+
   header div .en-lang {
-    border: 1px solid red;
-    padding-inline: 5px;
-    padding-block: 3px;
+    border: 1px solid black;
+    padding-inline: 8px;
+    padding-block: 2px;
     border-radius: 1px 10px 10px 1px;
   }
 
@@ -141,7 +149,6 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean)
     object-fit: cover;
     width: 7rem;
     border-radius: 0.5rem;
-    margin-top: 1rem;
   }
 
   .container {
@@ -218,6 +225,9 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean)
     }
     .no-print {
       display: none;
+    }
+    .languageToggle {
+      display: hidden;
     }
   }
 
