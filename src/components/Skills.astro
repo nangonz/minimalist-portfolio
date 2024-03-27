@@ -1,5 +1,7 @@
 ---
 import Section from "./Section.astro"
+import Html from "@/icons/Html.astro"
+import Css from "@/icons/Css.astro"
 
 interface Props {
   data: any;
@@ -7,13 +9,21 @@ interface Props {
 }
 
 const { data, sectionTitle } = Astro.props
+
+const SKILLS_ICONS: Record<string, any> = {
+  Html,
+  Css
+}
+
 ---
 <Section title={sectionTitle} >
   <ul>
     {
       data.map(({ name }:any) => {
+        const Icon = name
         return (
           <li>
+            <Icon />
             <span>{name}</span>
           </li>
         )

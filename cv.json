@@ -135,13 +135,13 @@
   }],
   "skills": [
     {
-      "name": "HTML",
+      "name": "Html",
       "keywords": [
         "Desarrollo Web", "Frontend"
       ]
     },
     {
-      "name": "CSS",
+      "name": "Css",
       "keywords": [
         "Desarrollo Web", "Frontend", "Diseño Responsive"
       ]
@@ -159,7 +159,7 @@
       ]
     },
     {
-      "name": "TypeScript",
+      "name": "Typescript",
       "keywords": [
         "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
       ]
@@ -189,7 +189,7 @@
       ]
     },
     {
-      "name": "Next.js",
+      "name": "Next",
       "keywords": [
         "Desarrollo Web", "Frontend", "React Framework", "SSR", "Static Generation"
       ]
