@@ -2,26 +2,16 @@
 
 import Layout from '@/layouts/Layout.astro'
 
-import About from '@/components/About.astro'
-import Education from '@/components/Education.astro'
-import Experience from '@/components/Experience.astro'
 import Hero from '@/components/Hero.astro'
-import Projects from '@/components/Projects.astro'
-import Skills from '@/components/Skills.astro'
 import KeyboardManager from '@/components/KeyboardManager.astro'
 
-import { basics, experience, education, projects, skills } from "@cv"
+import { basics } from "@cv"
 const { name } = basics
 ---
 
 <Layout language="es" title=`CV minimalista - ${name}`>
 	<main>
 		<Hero data={basics} />
-		<About data={basics.summary} sectionTitle="Sobre Mí" />
-		<Experience data={experience} sectionTitle="Experiencia" />
-		<Education data={education} sectionTitle="Educación" />
-		<Projects data={projects} sectionTitle="Proyectos" />
-		<Skills data={skills} sectionTitle="Habilidades" />
 	</main>
 	
 	<KeyboardManager />
