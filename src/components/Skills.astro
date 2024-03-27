@@ -1,7 +1,16 @@
 ---
 import Section from "./Section.astro"
+import Git from "@/icons/Git.astro"
+import Github from "@/icons/Github.astro"
+import CSS from "@/icons/CSS.astro"
 import Html from "@/icons/Html.astro"
-import Css from "@/icons/Css.astro"
+import Javascript from "@/icons/Javascript.astro"
+import Tailwind from "@/icons/Tailwind.astro"
+import Typescript from "@/icons/Typescript.astro"
+import Node from "@/icons/Node.astro"
+import MySQL from "@/icons/MySQL.astro"
+import Next from "@/icons/Next.astro"
+import React from "@/icons/React.astro"
 
 interface Props {
   data: any;
@@ -11,8 +20,17 @@ interface Props {
 const { data, sectionTitle } = Astro.props
 
 const SKILLS_ICONS: Record<string, any> = {
+  Github,
+  Git,
+  CSS,
   Html,
-  Css
+  MySQL,
+  Javascript,
+  Tailwind,
+  Typescript,
+  Node,
+  Next,
+  React
 }
 
 ---
@@ -20,10 +38,10 @@ const SKILLS_ICONS: Record<string, any> = {
   <ul>
     {
       data.map(({ name }:any) => {
-        const Icon = name
+        const Icon = SKILLS_ICONS[name]
         return (
           <li>
-            <Icon />
+            {Icon && <Icon />}
             <span>{name}</span>
           </li>
         )

@@ -141,13 +141,13 @@
       ]
     },
     {
-      "name": "Css",
+      "name": "CSS",
       "keywords": [
         "Desarrollo Web", "Frontend", "Diseño Responsive"
       ]
     },
     {
-      "name": "JavaScript",
+      "name": "Javascript",
       "keywords": [
         "Desarrollo Web", "Frontend", "Backend", "Fullstack"
       ]
@@ -183,7 +183,7 @@
       ]
     },
     {
-      "name": "GitHub",
+      "name": "Github",
       "keywords": [
         "Control de Versiones", "Colaboración", "Código Fuente", "Git"
       ]
